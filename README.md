@@ -17,4 +17,4 @@
 
 **Note** - Takes a while to get Cache deployed and running - once completed run the following (kubectl get svc -n castai-db-optimizer) Note down the value needed for DB_HOST
 
-**Step 7** - Create demo-ecom-app.yaml and deploy application.
+**Step 7** - Create demo-ecom-app.yaml (update values accordingly) and deploy application.

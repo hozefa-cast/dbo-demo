@@ -42,3 +42,7 @@ Goto App - Check performance - add products to cart and see the slowness in term
 
 Continuing the load - now View Configuration - Update to Auto and see better results on Ecommerce application and on CAST AI dashboard in terms of CAST Cache
 ![Screenshot 2025-06-06 at 4 15 21 PM](https://github.com/user-attachments/assets/84e3d823-1de9-4b8c-9d46-9e339bdf89d5)
+
+**Cleanup**
+eksctl delete cluster -f <your-eksctl-config.yaml>
+terraform destroy --auto-approve

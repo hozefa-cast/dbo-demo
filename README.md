@@ -24,4 +24,6 @@
 kubectl exec -it demo-ecom-app-pod-name -- /bin/sh
 npm run user:create -- --email "admin@admin.com" --password "admin123" --name "admin" 
 
-**Step 9** - Run Bootstap.vars and ./bootstrap.sh to populate all data into the app.
+**Step 9** - Update & Run Bootstap.vars and ./bootstrap.sh to populate all data into the app.
+
+**Step 10** - Install Locust in your Local system and run the program (locustfile.py) to open up UI

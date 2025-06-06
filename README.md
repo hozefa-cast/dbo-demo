@@ -3,7 +3,7 @@
 
 **Step 1** - Create EKS Cluster (eks-cluster.yaml)
 
-**Step 2** - Create RDS database with inputs from EKS including VPC ID, SG & Subnet. Create RDS under same VPC and make sure RDS SG can allow inbound access from EKS VPC on port 5432
+**Step 2** - Create RDS database (rds.tf) with inputs from EKS including VPC ID, SG & Subnet. Create RDS under same VPC and make sure RDS SG can allow inbound access from EKS VPC on port 5432
 
 **Note** - Modify & enable Performance Monitoring on RDS
 

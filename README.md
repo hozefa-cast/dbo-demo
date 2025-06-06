@@ -1,7 +1,7 @@
 # dbo-demo
 **DBO Demo Environment Setup for SEs on AWS using EKS and RDS Postgres**
 
-**Step 1** - Create EKS Cluster (eksctl - 3 medium sized nodes should be fine)
+**Step 1** - Create EKS Cluster (eks-cluster.yaml)
 
 **Step 2** - Create RDS database with inputs from EKS including VPC ID, SG & Subnet. Create RDS under same VPC and make sure RDS SG can allow inbound access from EKS VPC on port 5432
 

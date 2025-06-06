@@ -1,4 +1,4 @@
-# dbo-demo
+# DBO-Demo
 **DBO Demo Environment Setup for SEs on AWS using EKS and RDS Postgres**
 
 **Step 1** - Create EKS Cluster (eks-cluster.yaml)

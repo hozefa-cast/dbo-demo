@@ -7,3 +7,8 @@ spec:
   - name: psql-client
     image: postgres:15
     command: ["sleep", "3600"]
+
+# k apply -f psql-client.yaml
+# k exec -it psql-client.yaml -- sh
+# psql -h <your-db-host> -U <your-username> -p 5432
+# CREATE DATABASE evershop;

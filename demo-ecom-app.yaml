@@ -33,7 +33,7 @@ spec:
           - name: DB_PASSWORD
             value: "<add passoword>" # e.g - Mypassword!123
           - name: DB_HOST # Very Imporatant - Add DBO K8S service endpoint
-            value: "<DBO Proxy Endpoint>" # e.g - dbo-demo-postgres-my-8e88b.castai-db-optimizer.svc.cluster.local
+            value: "<DBO Proxy Endpoint>" # e.g - dbo-demo-postgres-my-8e88b.castai-db-optimizer.svc.cluster.local - This comes from kubectl get svc -n castai-db-optimizer
           - name: DB_PORT
             value: "5432"
           - name: DB_SSLMODE

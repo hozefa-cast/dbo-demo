@@ -20,3 +20,8 @@
 **Step 7** - Create demo-ecom-app.yaml (update values accordingly) and deploy application.
 
 **Step 8** - Check Application Status - k get svc (http://<your-lb-hostname>.elb.<region>.amazonaws.com:3000/)
+
+kubectl exec -it demo-ecom-app-pod-name -- /bin/sh
+npm run user:create -- --email "admin@admin.com" --password "admin123" --name "admin" 
+
+**Step 9** - Run Bootstap.vars and ./bootstrap.sh to populate all data into the app.

@@ -27,3 +27,18 @@ npm run user:create -- --email "admin@admin.com" --password "admin123" --name "a
 **Step 9** - Update & Run Bootstap.vars and ./bootstrap.sh to populate all data into the app.
 
 **Step 10** - Install Locust in your Local system and run the program (locustfile.py) to open up UI
+
+
+Result:
+See your app running
+![Screenshot 2025-06-06 at 4 12 04 PM](https://github.com/user-attachments/assets/48b119a4-febf-4317-aecb-d2b8cd83ecdd)
+
+Open up Locust on Browser -> Edit ->
+![Screenshot 2025-06-06 at 4 12 59 PM](https://github.com/user-attachments/assets/a76b68c6-ffda-4889-9f56-0a21b0f44073)
+
+Goto App - Check performance - add products to cart and see the slowness in terms of process.
+2 Mins later you will see your metrics chart on CAST Cache dashboard come up as below:
+![Screenshot 2025-06-06 at 4 14 29 PM](https://github.com/user-attachments/assets/a2898939-b5e9-4623-92c4-061d24e76312)
+
+Continuing the load - now View Configuration - Update to Auto and see better results on Ecommerce application and on CAST AI dashboard in terms of CAST Cache
+![Screenshot 2025-06-06 at 4 15 21 PM](https://github.com/user-attachments/assets/84e3d823-1de9-4b8c-9d46-9e339bdf89d5)
